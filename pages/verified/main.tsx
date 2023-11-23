@@ -213,7 +213,7 @@ Add space between each abstract.`;
     }
     setLoading(false);
   };
-console.log("first")
+// console.log("first")
   return (
     <>
       <Head>
