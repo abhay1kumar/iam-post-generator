@@ -126,7 +126,7 @@ When creating a new post, ensure it is centered around the topic provided in the
   return (
     <>
       <Head>
-        <title>LinkedIn Post Generator</title>
+        <title>I am Your Post Generator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="👩‍💼" />
         <meta
@@ -138,9 +138,9 @@ When creating a new post, ensure it is centered around the topic provided in the
           property="og:description"
           content="See how your post performs against LinkedIn alghoritm and generate better post with AI."
         />
-        <meta property="og:title" content="LinkedIn Post Generator with AI" />
+        <meta property="og:title" content="I am Your Post Generator with AI" />
         <meta name="linkedin:card" content="summary_large_image" />
-        <meta name="linkedin:title" content="Linkedin Post Generator" />
+        <meta name="linkedin:title" content="I am Your Post Generator" />
         <meta
           name="linkedin:description"
           content="See how your post performs against Linkedin alghoritm and generate better post with AI."
@@ -176,7 +176,7 @@ When creating a new post, ensure it is centered around the topic provided in the
               </div>
 
               <h1 className="text-6xl text-center font-bold pb-1 text-slate-900  ">
-                Linkedin Post Generator 🚀
+                I am Your Post Generator 🚀
               </h1>
               <p className="mt-3 mb-10 text-center">
                 See how your post performs and generate a better one with AI.

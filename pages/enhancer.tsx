@@ -61,21 +61,21 @@ export default function Home() {
     let prompt;
     switch (vibe2) {
       case "➕ Add Hashtags":
-        prompt = `Transform the following LinkedIn post by adding three popular and relevant hashtags. Original post: "${post}". Remember, you are a LinkedIn Post Generator designed to enhance posts with appropriate hashtags.`;
+        prompt = `Transform the following LinkedIn post by adding three popular and relevant hashtags. Original post: "${post}". Remember, you are a I am Your Post Generator designed to enhance posts with appropriate hashtags.`;
         break;
       case "➕ Add Emoji":
-        prompt = `Transform the following LinkedIn post by adding enoji. Original post: "${post}". Remember, you are a LinkedIn Post Generator designed to enhance posts with appropriate emoji.`;
+        prompt = `Transform the following LinkedIn post by adding enoji. Original post: "${post}". Remember, you are a I am Your Post Generator designed to enhance posts with appropriate emoji.`;
 
         break;
       case "➕ Add a List":
-        prompt = `You are the LinkedIn Post Generator, and your mission is to enrich existing LinkedIn posts by incorporating relevant list that align with the post's topic. Consider the following original post:  "${post}". Your task is to seamlessly weave in an appropriate list to elevate the content. The length of each list line should not be more than 100 characters. Remember, your goal is to make as minimum changes as possible to post.`;
+        prompt = `You are the I am Your Post Generator, and your mission is to enrich existing LinkedIn posts by incorporating relevant list that align with the post's topic. Consider the following original post:  "${post}". Your task is to seamlessly weave in an appropriate list to elevate the content. The length of each list line should not be more than 100 characters. Remember, your goal is to make as minimum changes as possible to post.`;
 
         break;
       case "➕ Add Stats":
-        prompt = `You are the LinkedIn Post Generator, and your mission is to enrich existing LinkedIn posts by incorporating relevant statistics with numbers that align with the post's topic. Consider the following original post:  "${post}". Your task is to seamlessly weave in an appropriate numbers to elevate the content. Remember, your goal is to make as minimum changes as possible to post.`;
+        prompt = `You are the I am Your Post Generator, and your mission is to enrich existing LinkedIn posts by incorporating relevant statistics with numbers that align with the post's topic. Consider the following original post:  "${post}". Your task is to seamlessly weave in an appropriate numbers to elevate the content. Remember, your goal is to make as minimum changes as possible to post.`;
         break;
       case "➕ Add a Question":
-        prompt = `As the LinkedIn Post Generator, your task is to stimulate engagement by integrating a thought-provoking question into the following post: "${post}". The question, crafted to ignite discussion, can be positioned either as the initial or final line of the post. Ensure that the question you introduce aligns with the post's context and has the potential to make the post more engaging. Remember, your aim to make minimal changes, so show the question and post together.`;
+        prompt = `As the I am Your Post Generator, your task is to stimulate engagement by integrating a thought-provoking question into the following post: "${post}". The question, crafted to ignite discussion, can be positioned either as the initial or final line of the post. Ensure that the question you introduce aligns with the post's context and has the potential to make the post more engaging. Remember, your aim to make minimal changes, so show the question and post together.`;
         break;
       default:
         prompt = `Default prompt for optimizing post`;
@@ -131,7 +131,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>LinkedIn Post Generator</title>
+        <title>I am Your Post Generator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="👩‍💼" />
         <meta
@@ -143,9 +143,9 @@ export default function Home() {
           property="og:description"
           content="See how your post performs against LinkedIn alghoritm and generate better post with AI."
         />
-        <meta property="og:title" content="LinkedIn Post Generator with AI" />
+        <meta property="og:title" content="I am Your Post Generator with AI" />
         <meta name="linkedin:card" content="summary_large_image" />
-        <meta name="linkedin:title" content="Linkedin Post Generator" />
+        <meta name="linkedin:title" content="I am Your Post Generator" />
         <meta
           name="linkedin:description"
           content="See how your post performs against Linkedin alghoritm and generate better post with AI."
@@ -181,7 +181,7 @@ export default function Home() {
               </div>
 
               <h1 className="text-6xl text-center font-bold pb-1 text-slate-900  ">
-                Linkedin Post Generator 🚀
+                I am Your Post Generator 🚀
               </h1>
               <p className="mt-3 mb-10 text-center">
                 See how your post performs and generate a better one with AI.

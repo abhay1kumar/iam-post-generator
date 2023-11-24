@@ -1,6 +1,6 @@
-# LinkedIn Post Generator
+# I am Your Post Generator
 
-This project is an open-source LinkedIn post generator, powered by ChatGPT. It not only generates LinkedIn posts but also ranks them based on a unique algorithm that considers factors like hashtags, emojis, URLs, and more.
+This project is an open-source I am Your Post Generator, powered by ChatGPT. It not only generates LinkedIn posts but also ranks them based on a unique algorithm that considers factors like hashtags, emojis, URLs, and more.
 
 ## Getting Started
 
@@ -35,4 +35,4 @@ The easiest way to deploy your Next.js app is to use the Vercel Platform from th
 
 ## Contributing
 
-We welcome contributions to the LinkedIn Post Generator! Please feel free to submit pull requests, or open issues to discuss potential changes or fixes.
+We welcome contributions to the I am Your Post Generator! Please feel free to submit pull requests, or open issues to discuss potential changes or fixes.
